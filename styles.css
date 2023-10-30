@@ -37,17 +37,31 @@ input[type="text"], input[type="range"]{
     display: inline-block;
 }
 input[type="text"][disabled] {
-    background-color: #ccc;  
+    background-color: #ccc;
+    font-weight: bolder; 
 }
 
-#tipPercentage{
-    background-color: lightslategray;
+#tipPercentage {
+    background-color: #faedcb;
+    color: palevioletred; 
+    padding: 10px;
 }
-#tipAmount{
-    background-color: lightsteelblue;
+
+#tipAmount {
+    background-color: #daeaf6;
+    color: darkblue;
+    padding: 10px;
 }
-#totalBill{
-    background-color: lightsalmon;
+
+#totalBill {
+    background-color: #eadbdd;
+    color: darkred; 
+    padding: 10px; 
+}
+
+#tipPercentage:hover, #tipAmount:hover, #totalBill:hover {
+    background-color: lightgray;
+    cursor: pointer;
 }
 
 
